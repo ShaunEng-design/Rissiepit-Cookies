@@ -147,6 +147,18 @@ footer {
     margin-top: -50px;
 }
 
+.fbimg:hover {
+    animation-name: menuspin;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+}
+
+.instaimg:hover {
+    animation-name: menuspin;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+}
+
 .instaimg {
     width: 60px;
     height: 60px;
@@ -167,4 +179,16 @@ footer {
     height: 60px;
     padding: 5px;
     margin-bottom: -25px;
+}
+
+.footerinstaimg:hover {
+    animation-name: menuspin;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+}
+
+.footerfbimg:hover {
+    animation-name: menuspin;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
 }
