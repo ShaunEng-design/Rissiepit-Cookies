@@ -45,22 +45,6 @@ header {
     }
 }
 
-.indexmain::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    background-image: url('images/bodyimg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position-y: 60%;
-    opacity: 0.6;
-}
-
 .indexmain {
     width: 60%;
     height: 50%;
@@ -71,6 +55,12 @@ header {
     padding: 20px;
     border-radius: 10px;
     z-index: 2;
+    background-color: rgba(255, 192, 203, 0.288);
+    background-image: url(images/bodyimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 80%;
+    background-attachment: fixed;
 }
 
 .indexmain img {
@@ -107,5 +97,5 @@ header {
 }
 
 .text {
-    color: red;
+    color: rgb(219, 7, 219);
 }
