@@ -56,6 +56,29 @@
         text-align: center !important;
         font-size: 60px !important;
     }
+
+    footer {
+        width: 100% !important;
+        height: 110px !important;
+    }
+
+    .footerinstaimg {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        margin-left: 60px !important;
+        margin-top: 35px !important;
+        padding: 5px !important;
+    }
+    
+    .footerfbimg {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        margin-left: -100px !important;
+        margin-top: 35px !important;
+        padding: 5px !important;
+    }
 }
 
 /*** Index Page Styling START ***/
@@ -186,7 +209,9 @@ footer {
     width: 100%;
     height: 100px;
     background-color: rgb(233, 233, 233);
-    line-height: 100px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .fbimg {
@@ -220,15 +245,17 @@ footer {
 .footerinstaimg {
     width: 60px;
     height: 60px;
-    padding: 5px;
-    margin-bottom: -25px;
+    margin-left: 200px;
+    position: absolute;
+    margin-top: -3px;
 }
 
 .footerfbimg {
     width: 60px;
     height: 60px;
-    padding: 5px;
-    margin-bottom: -25px;
+    position: absolute;
+    margin-left: -260px;
+    margin-top: -3px;
 }
 
 .footerinstaimg:hover {
