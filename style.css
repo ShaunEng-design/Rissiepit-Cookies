@@ -447,54 +447,68 @@ footer {
         height: auto;
     }
 
+    .indexmain2 {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+        height: auto;
+    }
+
+    .indexmain .profile {
+        margin-left: -60px;
+        width: 150px;
+        height: 150px;
+        margin-top: -120px;
+    }
+
     .cupcakes h3 {
-        font-size: 20px;
+        font-size: 30px;
         margin-left: -100px;
     }
     
     .cupcakes img {
-        width: 80%;
-        height: 200px;
+        width: 60%;
+        height: 300px;
         margin-left: 40px;
-        margin-top: 10px;
+        margin-top: 50px;
     }
 
     .rizzies h3 {
-        font-size: 20px;
+        font-size: 30px;
         margin-left: 60px;
     }
     
     .rizzies img {
-        width: 80%;
-        height: 200px;
+        width: 60%;
+        height: 300px;
         margin-left: 40px;
-        margin-top: 10px;
+        margin-top: 5px;
     }
 
     .cakes h3 {
-        font-size: 20px;
+        font-size: 30px;
         margin-left: -100px;
         margin-top: 30px;
     }
     
     .cakes img {
-        width: 80%;
-        height: 200px;
+        width: 60%;
+        height: 260px;
         margin-left: 40px;
-        margin-top: 10px;
+        margin-top: 30px;
     }
 
     .cookies h3 {
-        font-size: 20px;
+        font-size: 30px;
         margin-left: 60px;
         margin-top: 30px;
     }
     
     .cookies img {
-        width: 80%;
-        height: 200px;
+        width: 60%;
+        height: 300px;
         margin-left: 40px;
-        margin-top: 10px;
+        margin-top: 0px;
     }
 
     .contactmain {
@@ -519,12 +533,12 @@ footer {
     footer {
         width: 100%;
         height: 110px;
-        margin-top: 50px;
+        margin-top: 350px;
     }
 
     .productmain1 {
         grid-template-columns: 1fr 1fr;
-        margin-top: 150px;
+        margin-top: 40px;
         height: 500px;
     }
 
