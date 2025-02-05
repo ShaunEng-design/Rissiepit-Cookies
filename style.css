@@ -437,7 +437,15 @@ footer {
 
 /*** Media Queries ***/
 
+/*** Between 685px and 1366px ***/
+
 @media screen and (max-width: 1366px) {
+
+    .indexmain {
+        width: 95%;
+        padding: 30px;
+        height: auto;
+    }
 
     .cupcakes h3 {
         font-size: 20px;
@@ -508,7 +516,23 @@ footer {
         margin-left: 75px;
     }  
 
+    footer {
+        width: 100%;
+        height: 110px;
+        margin-top: 50px;
+    }
+
+    .productmain1 {
+        grid-template-columns: 1fr 1fr;
+        margin-top: 150px;
+        height: 500px;
+    }
+
 }
+
+/*** Between 685px and 1366px ***/
+
+/*** Between 454px and 684px ***/
 
 @media screen and (max-width: 684px) {
 
@@ -528,7 +552,7 @@ footer {
     .indexmain {
         width: 95%;
         padding: 30px;
-        height: 450px;
+        height: auto;
     }
 
     .indexmain .profile {
@@ -655,6 +679,10 @@ footer {
         margin-left: 180px;
     }  
 }
+
+/*** Between 454px and 684px ***/
+
+/*** Between 0 and 454px ***/
 
 @media screen and (max-width: 454px) {
 
@@ -785,3 +813,5 @@ footer {
         margin-left: 80px;
     }  
 }
+
+/*** Between 0 and 454px ***/
