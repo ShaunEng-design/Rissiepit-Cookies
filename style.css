@@ -524,6 +524,9 @@ footer {
     background-color: #ffc0cb52;
     box-shadow: 5px 5px 8px rgb(136, 136, 136);
     border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
 }
 
 @keyframes boomboom {
