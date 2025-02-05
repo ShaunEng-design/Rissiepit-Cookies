@@ -10,153 +10,11 @@
     src: url(font/myfont.ttf);
 }
 
-/*** Media Queries ***/
-
-@media screen and (max-width: 600px) {
-
-    header {
-        width: 100%;
-        height: 200px;
-    }
-
-    .fbimg {
-        display: none;
-    }
-
-    .instaimg {
-        display: none;
-    }
-
-    .indexmain {
-        width: 95% !important;
-        padding: 30px !important;
-        height: auto !important;
-    }
-
-    .indexmain .profile {
-        margin-left: -25px !important;
-        width: 150px !important;
-        height: 150px !important;
-        margin-top: -250px !important
-    }
-
-    .indexmain p {
-        text-align: center !important;
-        margin-left: 10px !important;
-    }
-
-    .indexmain2 {
-        grid-template-columns: 1fr 1fr !important;
-        grid-template-rows: 1fr 1fr !important;
-        gap: 10px !important;
-    }
-
-    .indexmain2heading h2 {
-        padding: 0 !important;
-        text-align: center !important;
-        font-size: 60px !important;
-    }
-
-    footer {
-        width: 100% !important;
-        height: 110px !important;
-    }
-
-    .footerinstaimg {
-        width: 60px;
-        height: 60px;
-        position: absolute;
-        margin-left: 60px !important;
-        margin-top: 35px !important;
-        padding: 5px !important;
-    }
+html, body {
+    height: 100%;
     
-    .footerfbimg {
-        width: 60px;
-        height: 60px;
-        position: absolute;
-        margin-left: -100px !important;
-        margin-top: 35px !important;
-        padding: 5px !important;
-    }
-
-    .productmain1 {
-        grid-template-columns: 1fr 1fr !important;
-        margin-top: 250px !important;
-        height: auto !important;
-    }
-
-    .cupcakes h3 {
-        font-size: 20px !important;
-        margin-left: -100px !important;
-    }
-    
-    .cupcakes img {
-        width: 50% !important;
-        height: 200px !important;
-        margin-left: 40px !important;
-        margin-top: 10px !important;
-    }
-
-    .rizzies h3 {
-        font-size: 20px !important;
-        margin-left: 60px !important;
-    }
-    
-    .rizzies img {
-        width: 50% !important;
-        height: 200px !important;
-        margin-left: 40px !important;
-        margin-top: 10px !important;
-    }
-
-    .cakes h3 {
-        font-size: 20px !important;
-        margin-left: -100px !important;
-        margin-top: 30px;
-    }
-    
-    .cakes img {
-        width: 50% !important;
-        height: 150px !important;
-        margin-left: 40px !important;
-        margin-top: 10px !important;
-    }
-
-    .cookies h3 {
-        font-size: 20px !important;
-        margin-left: 60px !important;
-        margin-top: 30px;
-    }
-    
-    .cookies img {
-        width: 50% !important;
-        height: 200px !important;
-        margin-left: 40px !important;
-        margin-top: 10px !important;
-    }
-
-    .contactmain {
-        grid-template-columns: 1fr !important;
-        width: 90% !important;
-        height: 900px !important;
-        margin-top: 150px !important;
-    }
-
-    .phone img {
-        margin-left: 75px !important;
-    }
-
-    .email img {
-        margin-left: 75px !important;
-    }
-
-    .whatsapp img {
-        margin-left: 75px !important;
-    }
-    
-   
 }
+
 
 /*** Index Page Styling START ***/
 
@@ -254,7 +112,7 @@ header {
 .indexmain2 {
     margin: auto;
     width: 90%;
-    height: 1140px;
+    height: 1200px;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -279,10 +137,6 @@ footer {
     width: 100%;
     height: 55px;
     background-color: rgb(233, 233, 233);
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    margin-top: 150px;
 }
 
 .fbimg {
@@ -370,7 +224,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 100%;
-    height: 300px;
+    height: 400px;
     column-gap: 20px;
     padding: 10px;
     margin-top: 10px;
@@ -518,9 +372,8 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 10px;
     padding: 10px;
-    background-color: aquamarine;
     width: 80%;
-    height: 300px;
+    height: 310px;
     background-color: #ffc0cb52;
     box-shadow: 5px 5px 8px rgb(136, 136, 136);
     border-radius: 10px;
@@ -532,7 +385,7 @@ footer {
 @keyframes boomboom {
     0% {
         opacity: 0;
-        transform: scale(5);
+        transform: scale(0.1);
     }
 
     100% {
@@ -547,13 +400,14 @@ footer {
     border-radius: 40px;
     margin-left: 130px;
     animation-name: boomboom;
-    animation-duration: 0.7s;
+    animation-duration: 0.5s;
     animation-fill-mode: forwards;
 }
 
 .phonetext {
     text-align: center;
     margin-top: 5px;
+    
 }
 
 .email img {
@@ -562,7 +416,7 @@ footer {
     border-radius: 5px;
     margin-left: 130px;
     animation-name: boomboom;
-    animation-duration: 0.7s;
+    animation-duration: 0.5s;
     animation-fill-mode: forwards;
 }
 
@@ -572,10 +426,232 @@ footer {
     border-radius: 5px;
     margin-left: 130px;
     animation-name: boomboom;
-    animation-duration: 0.7s;
+    animation-duration: 0.5s;
     animation-fill-mode: forwards;
 }
 
 .whatsapp img:hover {
-    transform: scale(1.05) !important;
+    box-shadow: 0 0 10px black;
+    border-radius: 40px;
+}
+
+/*** Media Queries ***/
+
+@media screen and (max-width: 1366px) {
+
+    .cupcakes h3 {
+        font-size: 20px;
+        margin-left: -100px;
+    }
+    
+    .cupcakes img {
+        width: 80%;
+        height: 200px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+
+    .rizzies h3 {
+        font-size: 20px;
+        margin-left: 60px;
+    }
+    
+    .rizzies img {
+        width: 80%;
+        height: 200px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+
+    .cakes h3 {
+        font-size: 20px;
+        margin-left: -100px;
+        margin-top: 30px;
+    }
+    
+    .cakes img {
+        width: 80%;
+        height: 200px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+
+    .cookies h3 {
+        font-size: 20px;
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+    
+    .cookies img {
+        width: 80%;
+        height: 200px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+
+    .contactmain {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .phone img {
+        margin-left: 75px;
+    }
+
+    .email img {
+        margin-left: 75px;
+    }
+
+    .whatsapp img {
+        margin-left: 75px;
+    }  
+
+}
+
+@media screen and (max-width: 684px) {
+
+    header {
+        width: 100%;
+        height: 200px;
+    }
+
+    .fbimg {
+        display: none;
+    }
+
+    .instaimg {
+        display: none;
+    }
+
+    .indexmain {
+        width: 95%;
+        padding: 30px;
+        height: 450px;
+    }
+
+    .indexmain .profile {
+        margin-left: -40px;
+        width: 150px;
+        height: 150px;
+        margin-top: -200px;
+    }
+
+    .indexmain p {
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    .indexmain2 {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+        height: auto;
+    }
+
+    .indexmain2heading h2 {
+        padding: 0;
+        text-align: center;
+        font-size: 60px;
+    }
+
+    footer {
+        width: 100%;
+        height: 110px;
+        margin-top: 50px;
+    }
+
+    .footerinstaimg {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        margin-left: 60px;
+        margin-top: 35px;
+        padding: 5px;
+    }
+    
+    .footerfbimg {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        margin-left: -100px;
+        margin-top: 35px;
+        padding: 5px;
+    }
+
+    .productmain1 {
+        grid-template-columns: 1fr 1fr;
+        margin-top: 150px;
+        height: 400px;
+    }
+
+    .cupcakes h3 {
+        font-size: 20px;
+        margin-left: -100px;
+    }
+    
+    .cupcakes img {
+        width: 50%;
+        height: 150px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+
+    .rizzies h3 {
+        font-size: 20px;
+        margin-left: 60px;
+    }
+    
+    .rizzies img {
+        width: 50%;
+        height: 150px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+
+    .cakes h3 {
+        font-size: 20px;
+        margin-left: -100px;
+        margin-top: 30px;
+    }
+    
+    .cakes img {
+        width: 50%;
+        height: 150px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+
+    .cookies h3 {
+        font-size: 20px;
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+    
+    .cookies img {
+        width: 50%;
+        height: 150px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+
+    .contactmain {
+        grid-template-columns: 1fr;
+        width: 90%;
+        height: 900px;
+        margin-top: 60px;
+    }
+
+    .phone img {
+        margin-left: 180px;
+    }
+
+    .email img {
+        margin-left: 180px;
+    }
+
+    .whatsapp img {
+        margin-left: 180px;
+    }  
 }
